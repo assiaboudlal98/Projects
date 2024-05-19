@@ -1,19 +1,20 @@
 h1 {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
    text-align: center;
+   background-color: black;
   
-   text-shadow: 2px 2px #ffffff;
+   /*text-shadow: 2px 2px #ffffff;*/
 }
 h3  {
     text-align: center;
 }
 form {
     text-align: center;
-    color: rgb(10 0, 0);
+    background-color: rgb(232, 32, 32);
 
 }
 title {
-    color: white;
+    color: rgb(247, 241, 241);
    text-align: center;
    background-color: black;
 }
@@ -72,6 +73,7 @@ title {
     padding: 0px;
     margin: 0px;
     overflow: hidden;
+    text-align: right;
   }
   .navbar a{
     color: black;
@@ -81,11 +83,97 @@ title {
     text-align: center;
   }
   .navbar a:hover{
-    background-color: rgb(95, 11, 11);
+    background-color: rgb(255, 255, 255);
   }
   .navbar li{
     float: left;
   }
 body {
     background-image:url(project.jpeg) ;
+}
+/* form's design */
+form {
+    margin: 0;background-color: black;
+
+    font-family: "poppins", sans-serif;
+
+}
+/* General reset for margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ensure the body takes up the full height of the viewport */
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Centering the login form container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Styling the login form */
+.login-form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+}
+
+.login-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.login-form button:hover {
+    background-color: #45a049;
+}
+h4 {
+  display: flex;
+  align-items: right;
+}
+footer {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+footer p {
+  margin: 0;
 }

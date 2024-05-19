@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.social-media-links {
+    display: flex;
+    gap: 15px;
+}
+
+.social-media-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.social-media-links a.instagram {
+    background-color: #e4405f;
+}
+
+.social-media-links a.instagram:hover {
+    background-color: #c32a46;
+}
+
+.social-media-links a.linkedin {
+    background-color: #0077b5;
+}
+
+.social-media-links a.linkedin:hover {
+    background-color: #005582;
+}
+footer {
+    background-color: #4682b4;;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
